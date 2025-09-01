@@ -64,7 +64,7 @@ function EbookContent() {
         🌟 <strong>Tu vida merece un nuevo comienzo</strong> 🌟<br />
         
         ¿Listo para descubrir tu propósito y dar forma a tus sueños?<br />
-        El ebook de Belkis Urbina " 18 pasos hacia tu proyecto de vida " es una guía transformadora que te ayudará a:<br />
+        El ebook de Belkis Urbina &ldquo;18 pasos hacia tu proyecto de vida&rdquo; es una guía transformadora que te ayudará a:<br />
         
         ✨ Romper miedos y limitaciones<br />
         ✨ Reconectar con tu esencia<br />

@@ -44,7 +44,7 @@ export default function Testimonials() {
           Hoy quiero reconocer con el corazón a una mujer valiosa: Belkis Urbina.
           Ella ha puesto en este ebook no solo herramientas y pasos, sino también su amor, su fe y toda la experiencia de más de 20 años acompañando procesos de transformación.<br /><br />
           
-          📖 "18 pasos hacia tu proyecto de vida" no es un simple libro: es una guía práctica, profunda y llena de luz para todas las personas que desean descubrirse, sanar sus miedos, reconectar con sus sueños y construir una vida con propósito.<br /><br />
+          📖 &ldquo;18 pasos hacia tu proyecto de vida&rdquo; no es un simple libro: es una guía práctica, profunda y llena de luz para todas las personas que desean descubrirse, sanar sus miedos, reconectar con sus sueños y construir una vida con propósito.<br /><br />
           
           Este trabajo refleja la entrega de Belkis, su pasión por ver brillar a cada ser humano y su convicción de que sí es posible crear la vida que anhelamos cuando nos decidimos a hacerlo.<br /><br />
           
