@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="container max-w-6xl mx-auto px-5 py-10 grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-15 items-start"
+      <div className="container max-w-6xl mx-auto px-5 py-10 grid grid-cols-1 lg:grid-cols-2 gap-15 items-start"
         style={{
           maxWidth: '1200px',
           padding: '40px 20px',

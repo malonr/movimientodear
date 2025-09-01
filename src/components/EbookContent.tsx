@@ -3,7 +3,7 @@ import InstagramIcon from './InstagramIcon';
 
 function EbookContent() {
   return (
-    <div className="content" style={{ paddingTop: '20px' }}>
+    <div className="content">
       <span 
         className="ebook-badge"
         style={{

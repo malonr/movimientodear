@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Engagement } from "next/font/google";
 import "./globals.css";
 
@@ -15,7 +15,6 @@ export const metadata: Metadata = {
   keywords: "proyecto de vida, desarrollo personal, autoconocimiento, propósito de vida, crecimiento personal",
   authors: [{ name: "Belkis Urbina", url: "@psicopedagogiaurbina" }],
   robots: "index, follow",
-  viewport: "width=device-width, initial-scale=1",
   openGraph: {
     title: "18 pasos hacia tu proyecto de vida",
     description: "E-book con herramientas y ejercicios prácticos para encontrar tu propósito de vida",
@@ -31,6 +30,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://movimientodear.com"
   }
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({
