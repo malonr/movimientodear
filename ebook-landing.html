@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18 pasos hacia tu proyecto de vida - MOVIMIENTODEAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Engagement&family=Bree+Serif:wght@400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FDEEE7;
+            color: #545454;
+        }
+
+        .header {
+            background-color: #fff;
+            padding: 15px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 18px;
+            color: #545454;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #545454;
+            font-weight: 500;
+        }
+
+        .contact-btn {
+            background-color: #CEA049;
+            padding: 8px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .content {
+            padding-top: 20px;
+        }
+
+        .ebook-badge {
+            background-color: #CEA049;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .main-title {
+            font-family: 'Engagement', cursive;
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 1.1;
+            margin-bottom: 15px;
+            color: #545454;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #545454;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        .question {
+            font-family: 'Engagement', cursive;
+            font-size: 28px;
+            font-weight: bold;
+            color: #545454;
+            margin-bottom: 15px;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #545454;
+            margin-bottom: 30px;
+        }
+
+        .target-audience {
+            font-family: 'Engagement', cursive;
+            font-size: 28px;
+            font-weight: bold;
+            color: #545454;
+            margin-bottom: 15px;
+        }
+
+        .audience-list {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #545454;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background-color: #E2FAF0;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .book-section {
+            text-align: center;
+        }
+
+        .book-cover {
+            width: 300px;
+            height: auto;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+
+        .book-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #545454;
+            margin-bottom: 10px;
+        }
+
+        .silver-edition {
+            background-color: #e8e8e8;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .silver-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .bonus-section {
+            background-color: #F6DDDD;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .bonus-title {
+            font-family: 'Engagement', cursive;
+            font-size: 24px;
+            font-weight: bold;
+            color: #545454;
+            margin-bottom: 15px;
+        }
+
+        .bonus-list {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #545454;
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #CEA049;
+            margin-bottom: 10px;
+        }
+
+        .cta-button {
+            background-color: #CEA049;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #B8904A;
+        }
+
+        .testimonials-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .testimonials-title {
+            font-family: 'Engagement', cursive;
+            font-size: 36px;
+            color: #545454;
+            margin-bottom: 40px;
+        }
+
+        .testimonial {
+            background-color: #F6DDDD;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .testimonial-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #545454;
+            margin-bottom: 15px;
+        }
+
+        .payment-section {
+            background-color: #E2FAF0;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .payment-title {
+            font-family: 'Engagement', cursive;
+            font-size: 20px;
+            font-weight: bold;
+            color: #545454;
+            margin-bottom: 15px;
+        }
+
+        .payment-info {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #545454;
+        }
+
+        .price-container {
+            margin-bottom: 10px;
+        }
+
+        .original-price {
+            font-size: 18px;
+            color: #999;
+            text-decoration: line-through;
+            margin-right: 10px;
+        }
+
+        .offer-price {
+            font-size: 28px;
+            font-weight: bold;
+            color: #CEA049;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                text-align: center;
+            }
+            
+            .main-title {
+                font-size: 36px;
+            }
+            
+            .book-cover {
+                width: 250px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">MOVIMIENTODEAR</div>
+            <ul class="nav-links">
+                <li><a href="#">Sobre mi</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <a href="#" class="contact-btn">Contactar</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <span class="ebook-badge">E-BOOK</span>
+            
+            <h1 class="main-title">18 pasos hacia tu proyecto de vida</h1>
+            
+            <p class="subtitle">Autora: Belkis Urbina<br>@psicopedagogiaurbina</p>
+            
+            <h2 class="question">¿Qué encontrarás dentro?</h2>
+            
+            <div class="description">
+                Preguntas introspectivas que desbloquearán<br>
+                tu potencial más profundo, <span class="highlight">claves</span> y<br>
+                <span class="highlight">herramientas</span><br><br>
+                
+                Ejercicios prácticos para sustentar momentos<br>
+                de claridad<br><br>
+                
+                Conceptos de un guía y tu propósito real<br>
+                de vida en este momento
+            </div>
+            
+            <h2 class="target-audience">¿Para quién es este E-book?</h2>
+            
+            <div class="audience-list">
+                • Que personas que quieran encontrar en<br>
+                • Quienes buscan revivir<br>
+                • Quienes deseen tomar las riendas de proyecto 18h<br>
+                • Quienes deseen crear un proyecto 30/a<br>
+                • Para quienes <span class="highlight">tú propósito</span> ya no les <span class="highlight">encaja</span><br><br>
+                
+                ¿Tu vida es una experiencia?
+            </div>
+        </div>
+
+        <div class="book-section">
+            <div style="width: 300px; height: 400px; background: linear-gradient(135deg, #F6DDDD 0%, #E2FAF0 100%); border-radius: 8px; margin: 0 auto 30px; display: flex; align-items: center; justify-content: center; color: #545454; font-size: 18px; font-weight: bold; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                18 PASOS<br>
+                HACIA TU<br>
+                PROYECTO<br>
+                DE VIDA
+            </div>
+            
+            
+            <div class="bonus-section">
+                <h3 class="bonus-title">BONUS</h3>
+                <div class="bonus-list">
+                    Una llamada gratis<br><br>
+                    <strong>Precio: $17</strong><br><br>
+                    
+                    Fecha máxima para<br>
+                    ofertas especiales<br><br>
+                    
+                    Material cargo<br>
+                    de consulta<br><br>
+                    
+                    Acceso a nuestra<br>
+                    comunidad privada
+                </div>
+            </div>
+            
+            <div class="price-container">
+                <span class="original-price">Precio original: $47</span>
+                <div class="offer-price">Oferta especial: $17</div>
+            </div>
+            
+            <div class="payment-section">
+                <h3 class="payment-title">Compras en Venezuela</h3>
+                <div class="payment-info">
+                    💰 <strong>Zelle:</strong> belkisurbina@hotmail.com<br><br>
+                    📱 <strong>WhatsApp:</strong> +57 320 5723257<br>
+                    (Envía el comprobante de pago)
+                </div>
+            </div>
+            
+            <a href="#" class="cta-button">OBTENER AHORA</a>
+        </div>
+    </div>
+
+    <section class="testimonials-section">
+        <h2 class="testimonials-title">Lo que dicen nuestros lectores</h2>
+        
+        <div class="testimonial">
+            <div class="testimonial-text">
+                ✨ <strong>Un regalo de vida que no puedes dejar pasar</strong> ✨<br><br>
+                
+                Hoy quiero reconocer con el corazón a una mujer valiosa: Belkis Urbina.
+                Ella ha puesto en este ebook no solo herramientas y pasos, sino también su amor, su fe y toda la experiencia de más de 20 años acompañando procesos de transformación.<br><br>
+                
+                📖 "18 pasos hacia tu proyecto de vida" no es un simple libro: es una guía práctica, profunda y llena de luz para todas las personas que desean descubrirse, sanar sus miedos, reconectar con sus sueños y construir una vida con propósito.<br><br>
+                
+                Este trabajo refleja la entrega de Belkis, su pasión por ver brillar a cada ser humano y su convicción de que sí es posible crear la vida que anhelamos cuando nos decidimos a hacerlo.<br><br>
+                
+                💫 Da el primer paso hacia tu proyecto de vida, te motivo a recibir este regalo y permitirte esa transformación que tu ser está esperando.<br><br>
+                
+                Gracias Belkis, por inspirarnos, por mostrarnos que ningún sueño es demasiado grande y por recordarnos que todo lo que necesitamos ya está dentro de nosotros. 🌹
+            </div>
+        </div>
+    </section>
+</body>
+</html>
