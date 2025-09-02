@@ -4,28 +4,20 @@ export default function EbookCover() {
   return (
     <div className="book-section text-center">
       {/* Portada del libro - exactamente como en el HTML */}
-      <div 
+      <img 
+        src="/images/Ebook cover.png"
+        alt="18 pasos hacia tu proyecto de vida - Ebook cover"
         style={{
-          width: '300px',
-          height: '400px',
-          background: 'linear-gradient(135deg, #F6DDDD 0%, #E2FAF0 100%)',
-          borderRadius: '8px',
-          margin: '0 auto 30px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: '#545454',
-          fontSize: '18px',
-          fontWeight: 'bold',
-          textAlign: 'center',
-          boxShadow: '0 10px 30px rgba(0,0,0,0.2)'
+          backgroundColor: '#CEA049',
+          padding: '8px 16px',
+          borderRadius: '20px',
+          display: 'inline-block',
+          marginBottom: '20px',
+          maxWidth: '280px',
+          height: 'auto'
         }}
-      >
-        18 PASOS<br />
-        HACIA TU<br />
-        PROYECTO<br />
-        DE VIDA
-      </div>
+      />
+      
       
       {/* Sección BONUS */}
       <div 
@@ -59,7 +51,7 @@ export default function EbookCover() {
         >
           📚 <strong>Ebook</strong> - $97 dólares<br /><br />
           
-          🎯 <strong>Masterclass en vivo</strong> (La riqueza del ser) - $300<br /><br />
+          🎯 <strong>Llamada aclaratoria conmigo</strong>- $300<br /><br />
           
           🎧 <strong>Audio</strong> (Empieza tu día con estas poderosas afirmaciones) - $20<br /><br />
           

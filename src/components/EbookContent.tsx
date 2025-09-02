@@ -4,26 +4,11 @@ import InstagramIcon from './InstagramIcon';
 function EbookContent() {
   return (
     <div className="content">
-      <span 
-        className="ebook-badge"
-        style={{
-          backgroundColor: '#CEA049',
-          color: 'white',
-          padding: '8px 16px',
-          borderRadius: '20px',
-          display: 'inline-block',
-          fontSize: '14px',
-          fontWeight: '500',
-          marginBottom: '20px'
-        }}
-      >
-        E-BOOK
-      </span>
       
       <h1 
         className="main-title text-5xl md:text-6xl font-bold leading-tight mb-4 font-engagement"
         style={{ 
-          color: '#545454',
+          color: '#CEA049',
           fontSize: '48px',
           lineHeight: '1.1'
         }}
@@ -38,8 +23,8 @@ function EbookContent() {
           target="_blank" 
           rel="noopener noreferrer"
           style={{ 
-            color: '#545454', 
-            textDecoration: 'none',
+            color: '#CEA049', 
+            textDecoration: 'underline',
             display: 'inline-flex',
             alignItems: 'center',
             gap: '5px'
@@ -53,7 +38,7 @@ function EbookContent() {
       <h2 
         className="font-bold mb-4 font-engagement"
         style={{ 
-          color: '#545454',
+          color: '#CEA049',
           fontSize: '30px'
         }}
       >
@@ -78,7 +63,7 @@ function EbookContent() {
       <h2 
         className="font-bold mb-4 font-engagement"
         style={{ 
-          color: '#545454',
+          color: '#CEA049',
           fontSize: '30px'
         }}
       >
@@ -86,7 +71,7 @@ function EbookContent() {
       </h2>
       
       <div className="text-base leading-loose mb-8" style={{ color: '#545454' }}>
-        Para quienes se sienten estancados o perdidos.<br />
+        Para quienes se sienten perdidos.<br />
         Para quienes quieren reinventarse.<br />
         Para quienes desean trazar un camino con propósito.<br />
         Para quienes quieren sanar, crecer y reconectar con su esencia.
@@ -95,7 +80,7 @@ function EbookContent() {
       <h2 
         className="font-bold mb-4 font-engagement"
         style={{ 
-          color: '#545454',
+          color: '#CEA049',
           fontSize: '30px'
         }}
       >
