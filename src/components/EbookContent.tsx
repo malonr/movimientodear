@@ -71,7 +71,7 @@ function EbookContent() {
       </h2>
       
       <div className="text-base leading-loose mb-8" style={{ color: '#545454' }}>
-        Para quienes se sienten perdidos.<br />
+        Para emprendedores.<br />
         Para quienes quieren reinventarse.<br />
         Para quienes desean trazar un camino con propósito.<br />
         Para quienes quieren sanar, crecer y reconectar con su esencia.
