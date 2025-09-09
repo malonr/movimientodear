@@ -59,7 +59,7 @@ export default function EbookCover() {
 
           💰 <strong>Total:</strong> $417<br /><br />
           
-          💎 <strong>Precio especial:</strong> $27<br /><br />
+          💎 <strong>Precio especial:</strong> $10<br /><br />
         
         </div>
       </div>
@@ -85,7 +85,7 @@ export default function EbookCover() {
             color: '#CEA049'
           }}
         >
-          Precio especial: $27
+          Precio especial: $10
         </div>
       </div>
       
@@ -197,7 +197,7 @@ export default function EbookCover() {
         </a>
         
         <a 
-          href="https://wa.me/573205723257?text=Hola,%20he%20realizado%20el%20pago%20de%20$27%20por%20el%20paquete%20'18%20pasos%20hacia%20tu%20proyecto%20de%20vida'%20y%20quiero%20enviar%20el%20comprobante"
+          href="https://wa.me/573205723257?text=Hola,%20he%20realizado%20el%20pago%20de%20$10%20por%20el%20paquete%20'18%20pasos%20hacia%20tu%20proyecto%20de%20vida'%20y%20quiero%20enviar%20el%20comprobante"
           target="_blank"
           rel="noopener noreferrer"
           style={{
