@@ -5,24 +5,33 @@ function Header() {
   return (
     <header className="header bg-white" style={{ padding: '15px 20px', boxShadow: '0 2px 5px rgba(0,0,0,0.1)' }}>
       <nav className="nav flex items-center mx-auto" style={{ maxWidth: '1200px', justifyContent: 'space-between' }}>
-        <div className="font-bold text-lg" style={{ color: '#545454' }}>
+        <Link href="/" className="font-bold text-lg hover:opacity-80 transition-opacity no-underline" style={{ color: '#545454' }}>
           MOVIMIENTODEAR
-        </div>
+        </Link>
         
         <div className="flex items-center" style={{ gap: '40px' }}>
           <ul className="nav-links hidden md:flex list-none" style={{ gap: '30px' }}>
             <li>
-              <Link 
-                href="#" 
+              <Link
+                href="/ebook"
                 className="font-medium no-underline hover:opacity-80 transition-opacity"
                 style={{ color: '#545454' }}
               >
-                Sobre mi
+                Ebook
               </Link>
             </li>
             <li>
-              <Link 
-                href="#" 
+              <Link
+                href="/taller"
+                className="font-medium no-underline hover:opacity-80 transition-opacity"
+                style={{ color: '#545454' }}
+              >
+                Taller
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#"
                 className="font-medium no-underline hover:opacity-80 transition-opacity"
                 style={{ color: '#545454' }}
               >
