@@ -1,6 +1,7 @@
 import Countdown from '@/components/Countdown';
 import Header from '@/components/Header';
 import CTAButton from '@/components/CTAButton';
+import Image from 'next/image';
 
 export default function TallerPage() {
   // Fecha objetivo para el taller: 13 de octubre 2025, 7:00 PM Colombia
@@ -227,11 +228,12 @@ export default function TallerPage() {
             alignItems: 'center'
           }}>
             <div style={{ textAlign: 'center' }}>
-              <img
+              <Image
                 src="/belkis foto perfil.png"
                 alt="Belkis Urbina"
+                width={300}
+                height={300}
                 style={{
-                  maxWidth: '300px',
                   borderRadius: '50%',
                   boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
                 }}
@@ -292,7 +294,7 @@ export default function TallerPage() {
                 top: '-10px',
                 left: '20px',
                 fontFamily: "'Engagement', cursive"
-              }}>"</div>
+              }}>&quot;</div>
               <div style={{ marginBottom: '20px', fontStyle: 'italic', paddingTop: '20px' }}>
                 Belkis me ayudó a cambiar completamente mi mentalidad sobre las ventas. Ahora genero ingresos desde la autenticidad y el amor.
               </div>
@@ -313,7 +315,7 @@ export default function TallerPage() {
                 top: '-10px',
                 left: '20px',
                 fontFamily: "'Engagement', cursive"
-              }}>"</div>
+              }}>&quot;</div>
               <div style={{ marginBottom: '20px', fontStyle: 'italic', paddingTop: '20px' }}>
                 Gracias al método de Belkis, mis ventas se triplicaron en 3 meses. Lo más increíble es que ahora vendo sin presión ni estrés.
               </div>
@@ -334,7 +336,7 @@ export default function TallerPage() {
                 top: '-10px',
                 left: '20px',
                 fontFamily: "'Engagement', cursive"
-              }}>"</div>
+              }}>&quot;</div>
               <div style={{ marginBottom: '20px', fontStyle: 'italic', paddingTop: '20px' }}>
                 Transformé mi negocio y mi vida. Ahora tengo clientes que me buscan porque resueno con su alma. Es magia pura.
               </div>
