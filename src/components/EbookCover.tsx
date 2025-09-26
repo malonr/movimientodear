@@ -1,12 +1,16 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function EbookCover() {
   return (
     <div className="book-section text-center">
       {/* Portada del libro - exactamente como en el HTML */}
-      <img 
+      <Image
         src="/images/Ebook cover.png"
         alt="18 pasos hacia tu proyecto de vida - Ebook cover"
+        width={280}
+        height={400}
         style={{
           backgroundColor: '#CEA049',
           padding: '8px 16px',

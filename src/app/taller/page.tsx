@@ -381,7 +381,7 @@ export default function TallerPage() {
               boxShadow: '0 5px 20px rgba(0,0,0,0.1)'
             }}>
               <h3 style={{ color: '#545454', fontSize: '1.3rem', marginBottom: '15px' }}>📝 Cuaderno de trabajo</h3>
-              <p>"Ventas sin Esfuerzo" con ejercicios de transformación profunda.</p>
+              <p>&quot;Ventas sin Esfuerzo&quot; con ejercicios de transformación profunda.</p>
             </div>
             <div style={{
               background: 'white',
@@ -463,7 +463,7 @@ export default function TallerPage() {
             </div>
             <div style={{ fontSize: '1.2rem', marginBottom: '30px', color: '#666' }}>
               ✨ 2 días de taller intensivo EN VIVO<br />
-              📚 Cuaderno de trabajo "Ventas sin Esfuerzo"<br />
+              📚 Cuaderno de trabajo &quot;Ventas sin Esfuerzo&quot;<br />
               💬 Acceso al grupo privado de WhatsApp<br />
               🗺️ Tu mapa personalizado de crecimiento<br />
               🔓 Claridad sobre tus bloqueos invisibles
